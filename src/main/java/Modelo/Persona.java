@@ -12,10 +12,10 @@ public class Persona {
     
     protected final String nombre;
     protected final String direccion;
-    protected final int telefono;
+    protected final String telefono;
     protected final String fechaNacimiento;
 
-    public Persona(String nombre, String direccion, int telefono, String fechaNacimiento) {
+    public Persona(String nombre, String direccion, String telefono, String fechaNacimiento) {
         this.nombre = nombre;
         this.direccion = direccion;
         this.telefono = telefono;
@@ -30,7 +30,7 @@ public class Persona {
         return direccion;
     }
 
-    public int getTelefono() {
+    public String getTelefono() {
         return telefono;
     }
 

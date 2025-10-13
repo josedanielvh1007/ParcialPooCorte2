@@ -47,7 +47,7 @@ public class Main {
     }
 
     /*
-    public Docente(int cedula, int pagoMensual, String nombre, String direccion, int telefono, String fechaNacimiento, String asignatura, int horasTrabajadas, int totalClases) {
+    public Docente(int cedula, int pagoMensual, String nombre, String direccion, String telefono, String fechaNacimiento, String asignatura, int horasTrabajadas, int totalClases) {
         super(nombre, direccion, telefono, fechaNacimiento);
         this.cedula = cedula;
         this.pagoHora = pagoMensual;
@@ -58,7 +58,7 @@ public class Main {
     private Persona anadirPersona() {
         String nombre = JOptionPane.showInputDialog("Nombre");
         String direccion = JOptionPane.showInputDialog("Direccion");
-        int telefono = Integer.parseInt(JOptionPane.showInputDialog("Telefono"));
+        String telefono = JOptionPane.showInputDialog("Telefono");
         String fechaNacimiento = JOptionPane.showInputDialog("Fecha nacimiento ( dd-mm-yyyy )");
         return new Persona(nombre, direccion, telefono, fechaNacimiento);
     }

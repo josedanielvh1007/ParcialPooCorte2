@@ -17,7 +17,7 @@ public class Docente extends Persona {
     private String asignatura;
     private double[] pagos;
 
-    public Docente(int cedula, int pagoMensual, String nombre, String direccion, int telefono, String fechaNacimiento, String asignatura, int horasTrabajadas, int totalClases) {
+    public Docente(int cedula, int pagoMensual, String nombre, String direccion, String telefono, String fechaNacimiento, String asignatura, int horasTrabajadas, int totalClases) {
         super(nombre, direccion, telefono, fechaNacimiento);
         this.cedula = cedula;
         this.pagoHora = pagoMensual;

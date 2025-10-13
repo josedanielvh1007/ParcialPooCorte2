@@ -11,7 +11,7 @@ package Modelo;
 public class Estudiante extends Persona {
     private int grado;
 
-    public Estudiante(String nombre, String direccion, int telefono, String fechaNacimiento, int grado) {
+    public Estudiante(String nombre, String direccion, String telefono, String fechaNacimiento, int grado) {
         super(nombre, direccion, telefono, fechaNacimiento);
         this.grado = grado;
     }
