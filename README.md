@@ -20,3 +20,7 @@ Sobre el caso anterior, hacer test unitarios y test de integración y validar qu
     • Cada funcionalidad debe tener al menos un commit.
 
     • Copia el link delos repositorios  en el documento.
+
+## Diagrama UML
+
+<img width="1335" height="458" alt="Parcial Segundo Corte" src="https://github.com/user-attachments/assets/509d07cd-918d-4508-bd05-d646e43fae29" />
