@@ -23,4 +23,4 @@ Sobre el caso anterior, hacer test unitarios y test de integración y validar qu
 
 ## Diagrama UML
 
-<img width="1335" height="458" alt="Parcial Segundo Corte" src="https://github.com/user-attachments/assets/509d07cd-918d-4508-bd05-d646e43fae29" />
+<img width="1156" height="573" alt="Parcial POO drawio" src="https://github.com/user-attachments/assets/76279673-c54e-4b17-b1f9-6a3fadf6c5d4" />
